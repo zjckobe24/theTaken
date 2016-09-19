@@ -6,7 +6,8 @@
 python --version
 #Python 2.7.10
 ```
-#Command Line run python, then:
+Command Line run python, then:
+```
 import django
 django.VERSION
 #1.10.1
@@ -24,7 +25,8 @@ cd /app/theTaken
 python manage.py startapp APPNAME
 ```
 #in Settings.py:
-add 'APPNAME' to INSTALLED_APPS
+```
+	add 'APPNAME' to INSTALLED_APPS
 ```
 4. Database migration
 ```
