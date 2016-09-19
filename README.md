@@ -8,7 +8,7 @@
 ```
 	import django
 	django.VERSION
-#1.10.1
+	#1.10.1
 ```
 	Please keep the versions of Python and Django synchronized.
 
