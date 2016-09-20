@@ -1,4 +1,5 @@
 from django.shortcuts import render_to_response
+from trailer.models import Video
 import datetime
 
 # Create your views here.

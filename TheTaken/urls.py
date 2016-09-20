@@ -16,8 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from trailer.views import current_date
+from search.views import search,search_form
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^current_date', current_date),
+    url(r'^search-form/$', search_form),
+    url(r'^search/$', search)
 ]
